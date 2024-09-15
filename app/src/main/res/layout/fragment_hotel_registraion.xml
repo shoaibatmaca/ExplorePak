@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Partner.Fragments.HotelRegistraionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Hotel Info"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+        <!-- Basic Information Section -->
+        <TextView
+            android:id="@+id/tvBasicInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etHotelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hotel Name"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etRoomNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Total room"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/etContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Website Url/link"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Policies Section -->
+        <TextView
+            android:id="@+id/tvPolicies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Policies"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etCancellationPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cancellation Policy"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etPaymentPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Payment Policy"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etStartingCharges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Starting Charges"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/uploadHotelImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="ContentDescription" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

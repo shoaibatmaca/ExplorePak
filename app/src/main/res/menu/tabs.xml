@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/tab_viewHotel"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/tab_room"
+        android:icon="@drawable/room"
+        android:title="Add Room" />
+
+    <item
+        android:id="@+id/tab_profile"
+        android:icon="@drawable/user_b"
+        android:title="Profile" />
+
+<!--    <item-->
+<!--        android:id="@+id/tab_notification"-->
+<!--        android:icon="@drawable/bell_b"-->
+<!--        android:title="Notification" />-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/tab_setting"-->
+<!--        android:icon="@drawable/setting"-->
+<!--        android:title="Setting" />-->
+
+</menu>

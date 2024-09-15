@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784564435373",
+    "project_id": "shahzadfyp-3f25a",
+    "storage_bucket": "shahzadfyp-3f25a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784564435373:android:1c0d3d6a64feeefe6a4924",
+        "android_client_info": {
+          "package_name": "com.example.shahzadasadfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDROnrZD-eKqOLw2505O4ye2T92JP8jF2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

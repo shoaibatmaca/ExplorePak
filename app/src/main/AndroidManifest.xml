@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShahZadAsadFYP"
+        tools:targetApi="31">
+        <activity
+            android:name=".Client.MyFavourite"
+            android:exported="false" />
+        <activity
+            android:name=".Appstarter.promo2"
+            android:exported="false" />
+        <activity
+            android:name=".Appstarter.promo1"
+            android:exported="false">
+
+            <!--  -->
+
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".Client.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Client.BookingConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".Client.ManagePackages"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfilecontent.UserNotification"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUI.UserManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Appstarter.GetStarted"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Messaging.UserDisplaying"
+            android:exported="false" />
+        <activity
+            android:name=".Messaging.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfilecontent.Profil"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfilecontent.UserSettingpage"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfilecontent.AboutApp"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Client.ClientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false">
+
+            <!--  -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Partner.PartnerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Client.TouristDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUI.AdminDashboard"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#3f95ec</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="lightGray">#efefef</color>
+    <color name="darkblue">#253f66</color>
+<!--    <color name="primary">#07aeaf</color>-->
+<!--    <color name="blue">#3f95ec</color>-->
+    <color name="blue">#07aeaf</color>
+    <color name="secondary_text">#757575</color>
+    <color name="Off_White">#FAFAFA</color>
+    <color name="input_background">#ECECEC</color>
+    <color name="primary_dark">#321A14</color>
+    <color name="red">#FF321A14</color>
+</resources>
